@@ -27,20 +27,20 @@ Sistem ini mengenali objek berbentuk bola dalam tiga warna (merah, kuning, hijau
 - Arduino IDE
 
 **📷 Gambar 1. Stack Teknologi Sistem Robotic Arm Pick and Place Berbasis Machine Learning**  
-![Stack Teknologi](/gambar/stack_teknologi.png)
+![Stack Teknologi](/gambar/a.jpeg)
 
 ---
 
 ## 🖼️ Dokumentasi Visual
 
 **Gambar 2. Tampak Depan Robot Arm 3-DOF yang Telah Dirakit**  
-![Robot Depan](/gambar/robot_depan.png)
+![Robot Depan](/gambar/b.jpeg)
 
 **Gambar 3. Tampak Samping Robot Arm 3-DOF dengan End-Effector**  
-![Robot Samping](/gambar/robot_samping.png)
+![Robot Samping](/gambar/c.jpeg)
 
 **Gambar 4. Tampilan GUI saat mendeteksi objek bola warna merah**  
-![GUI Deteksi Merah](/gambar/gui_deteksi_merah.png)
+![GUI Deteksi Merah](/gambar/f.jpeg)
 
 ---
 
@@ -49,16 +49,14 @@ Sistem ini mengenali objek berbentuk bola dalam tiga warna (merah, kuning, hijau
 ├── arm_robot_mega/ # Program Arduino (Arduino Mega)
 │ └── robotic_arm_controller.ino
 ├── python/
-│ ├── arm_robot.py # Kontrol logika robotik berbasis deteksi
-│ ├── gui.py # GUI utama + koneksi ke Arduino + YOLO inference
+│ ├── arm_robot_gui.py # GUI utama + koneksi ke Arduino + YOLO inference
 │ └── dataset_capture.py # Ambil dataset dari kamera USB
-├── model/
-│ └── yolo_bola.pt # Model YOLOv11 untuk deteksi bola warna
+│ └── best.pt # Model YOLOv11 untuk deteksi bola warna
 ├── gambar/
-│ ├── stack_teknologi.png
-│ ├── robot_depan.png
-│ ├── robot_samping.png
-│ └── gui_deteksi_merah.png
+│ ├── a.png
+│ ├── b.png
+│ ├── e.png
+│ └── f.png
 └── README.md
 
 
@@ -74,11 +72,8 @@ Sistem ini mengenali objek berbentuk bola dalam tiga warna (merah, kuning, hijau
 ### 2. Upload Program Arduino
 - Gunakan Arduino IDE
 - Buka dan unggah:
-arm_robot_mega/robotic_arm_controller.ino
+arm_robot_mega/arm_robot_mega.ino
 
-perl
-Copy
-Edit
 
 ### 3. Install Dependensi Python
 
@@ -92,15 +87,9 @@ pip install torch torchvision opencv-python pyserial pillow PyQt5
 
 ---
 ### 4. Jalankan GUI Utama
-bash
-Copy
-Edit
 cd python
 python gui.py
 (Opsional) Tangkap Dataset Baru
-bash
-Copy
-Edit
 python dataset_capture.py
 
 ---
