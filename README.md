@@ -121,7 +121,7 @@ Roboflow: https://roboflow.com
 
 ---
 
-##✍️ Kontribusi
+## ✍️ Kontribusi
 
 Proyek ini merupakan bagian dari konten pembelajaran robotika berbasis AI.
 Silakan fork dan kembangkan untuk keperluan pendidikan, riset, atau pengembangan mandiri.
