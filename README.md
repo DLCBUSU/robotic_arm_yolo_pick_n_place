@@ -104,25 +104,30 @@ Edit
 python dataset_capture.py
 
 ---
+
 ## 🧪 Fitur Unggulan
 Deteksi objek bola berwarna secara real-time dengan YOLOv11
 
 GUI interaktif untuk menampilkan hasil deteksi dan status robot
-
 Eksekusi otomatis pick and place berdasarkan hasil deteksi
-
 Dokumentasi lengkap dan folder terstruktur untuk pengembangan lanjutan
+
 ---
+
 ## 📖 Referensi
 YOLOv11: https://github.com/WongKinYiu/yolov11
 
 Roboflow: https://roboflow.com
+
 ---
----
+
 ##✍️ Kontribusi
+
 Proyek ini merupakan bagian dari konten pembelajaran robotika berbasis AI.
 Silakan fork dan kembangkan untuk keperluan pendidikan, riset, atau pengembangan mandiri.
+
 ---
+
 ##📄 Lisensi
 MIT License – Bebas digunakan untuk tujuan edukatif dan non-komersial.
 ---
