@@ -61,9 +61,6 @@ Sistem ini mengenali objek berbentuk bola dalam tiga warna (merah, kuning, hijau
 │ └── gui_deteksi_merah.png
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -85,7 +82,6 @@ Edit
 
 ### 3. Install Dependensi Python
 
-```bash
 pip install -r requirements.txt
 Atau manual:
 
